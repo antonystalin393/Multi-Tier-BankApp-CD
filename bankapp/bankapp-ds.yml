@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: dockerreg.stalinworkhub.in/bankapp:v6
+        image: dockerreg.stalinworkhub.in/bankapp:v10
         ports:
         - containerPort: 8080
         env:
